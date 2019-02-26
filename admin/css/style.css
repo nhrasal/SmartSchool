@@ -1,0 +1,278 @@
+#head{
+	height:80px;
+	top:0px;
+	position:absolute;
+	width:90%;
+	left:200px;
+	position:absolute;
+	background-color:#111;
+	
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color:white;
+    color: green;
+	
+}
+
+
+/* Style the content */
+.cont{
+	background-color:white;
+	height:auto;
+	left:200px;
+	top:80px;
+	position:absolute;
+	width:90%;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+	
+	
+	
+}
+
+input[type=text], select {
+    width:40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+   border-radius: 4px;
+    box-sizing: border-box;
+	 background-color:White;
+	
+	
+	
+}
+input[type=email], select {
+    width:40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:White;
+}
+input[type=password], select {
+  width:40%;
+	background-color: #4CAF50;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+   border-radius: 4px;
+    box-sizing: border-box;
+ background-color:White;
+}
+input[type=int], select {
+    width:40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+     background-color:White;
+}
+
+ select {
+    width:20%;
+       background-color:White;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+	border-radius: 4px;
+    box-sizing: border-box;
+    background-color:White;
+}
+textarea {
+    width:40%;
+       background-color:White;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+	border-radius: 4px;
+    box-sizing: border-box;
+    background-color:White;
+}
+input[type=date] {
+    width:20%;
+       background-color:White;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+  border-radius: 4px;
+    box-sizing: border-box;
+       background-color:White;
+}
+
+input[type=submit] {
+    width:20%;
+     background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+   border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+input[type=radio] {
+   width:40%;
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+footer{
+	background-color:#063;
+	color:#C60;
+	text-align:center;
+	height:50px;
+	width:100%;
+	left:0px;
+	top:auto;
+	position:absolute;
+	
+}
+footer2{
+	background-color:#063;
+	position:absolute;
+	color:#C60;
+	text-align:center;
+	height:50px;
+	width:100%;
+	left:0px;
+	top:auto;
+	right:0px;
+	
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+	
+}
+
+th, td {
+    text-align:left;
+    padding: 0,0,0,0;
+	font-size:15px;
+	
+	
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;
+
+
+
+
+}
+input[type=file] {
+   width: 40%;
+    padding: 12px 20px;
+	background-color:#F2F2F2;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+     border-radius: 4px;
+    box-sizing: border-box;
+	
+	
+}
+
+
+a{
+    display: inline-block;
+    
+    text-decoration: none;
+}
+
+ a:hover{
+    background-color: white;
+}
+

@@ -1,0 +1,31 @@
+<tr>
+<th width="" >Admin Id</th>
+<th width="" >Admin Photo</th>
+<th width="" >Admin Name</th>
+<th width="15%" >Contact</th>
+<th width="15%" > User Name</th>
+<th width="12%" >Edit</th>
+<th width="12%" >Delete</th>
+
+
+</tr>
+
+
+echo'<center><div id="table"><table border="" width="80%" >
+<tr>
+<th width="10%">'.$pid.'</th>
+
+<th width="13%"><img src="image/'.$image.'"  width="50px" height="50px" position="absolute"/></th>
+<th width="12%">'.$name.'</th>
+<th width="15%">'.$mobile.'</th>
+<th width="15%">'.$user.'</th>
+<td width="8%" ><form method="post" action="tedit.php" onclick="edit();">
+
+<a href="teditinfo.php?pid='.$pid.'" ><p style="color:green;">Edit</p></a></td>
+
+
+<td width="8%" ><form method="post" action="tdeletenow.php" onclick="delete();">
+<a href="delete/tdeletenow.php?pid='.$pid.'" ><p style="color:red;">Delete</p></a></td>
+</tr>
+</table></center></form>';
+	
